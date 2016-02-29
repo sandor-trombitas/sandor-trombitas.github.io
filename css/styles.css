@@ -187,7 +187,6 @@ p {
 .main-wrapper .job-title {
   color: #3F4650;
   font-size:16px;
-  margin-top:0;
   margin-bottom:0;
   font-weight: 500;
 }
@@ -213,4 +212,38 @@ p {
 }
 .section {
   margin-bottom:60px;
+}
+.main-wrapper .intro{
+  margin-bottom: 30px;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #42A8C0;
+}
+
+.projects-section .item {
+  margin-bottom: 20px;
+}
+
+.skillset .item {
+  margin-bottom:15px;
+  overflow: hidden;
+  position:relative;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+  left:0;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
 }
