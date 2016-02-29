@@ -75,8 +75,7 @@ p {
 
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
-  border-radius: 50%;
-}
+  border-radius: 50%;}
 
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
@@ -184,4 +183,34 @@ p {
   font-size: 16px;
   position: relative;;
   top: -2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size:16px;
+  margin-top:0;
+  margin-bottom:0;
+  font-weight: 500;
+}
+.main-wrapper .experience {
+  position: relative;
+  overflow: hidden;
+  margin-bottom:2px;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+@media (max-width: 767px) {
+.main-wrapper .time {
+  position: static;
+  display: block;
+  margin-top: 5px;
+}}
+.main-wrapper .time {
+  position:absolute;
+  right:0;
+  color: #97AAC3;
+}
+.section {
+  margin-bottom:60px;
 }
