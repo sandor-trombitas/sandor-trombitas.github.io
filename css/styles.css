@@ -247,8 +247,12 @@ p {
   display: inline-block;
   float: left;
   width: 70%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 .skillset .level-bar-inner {
-  height: 12px;
+  height: 10px;
   background: #7bc2d3;
+  z-index: 0;
 }
